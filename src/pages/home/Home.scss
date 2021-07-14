@@ -1,0 +1,80 @@
+.home {
+  flex: 4;
+  padding: 0px 20px;
+  height: calc(100vh - 50px);
+  position: sticky;
+  overflow-y: scroll;
+
+  .homeHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    position: sticky;
+    border: 1px solid black;
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .homeHeaderTitle {
+      background-color: rgba(0, 0, 0, 0.08);
+      border: 1px solid gray;
+      color: rgb(36, 35, 35);
+      cursor: pointer;
+      padding: 5px 15px;
+      margin-right: 10px;
+      border-radius: 20px;
+      font-size: 14px;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+
+  .homeCenter {
+    flex: 4;
+    height: 250px;
+    padding: 20px 50px;
+    background-color: burlywood;
+
+    .homeYoutube {
+      display: flex;
+      align-items: center;
+
+      .homeYoutubeIcon {
+        color: #ff0000;
+      }
+
+      .homeYoutubeTitle {
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+    }
+
+    .homeCenterHeading {
+      font-size: 32px;
+      margin-top: 15px;
+      font-weight: normal;
+      margin-bottom: 55px;
+    }
+
+    .homeCenterButton {
+      padding: 8px 10px;
+      font-size: 14px;
+      border: 1.5px solid black;
+      cursor: pointer;
+      letter-spacing: 2;
+    }
+  }
+
+  .homeHr {
+    padding: 0.5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 15px 0px;
+  }
+}

@@ -1,0 +1,23 @@
+.subscription {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .subscriptionProfile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .subscriptionTitle {
+    margin-left: 20px;
+    font-weight: 500;
+  }
+}

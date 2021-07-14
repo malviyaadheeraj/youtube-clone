@@ -1,0 +1,92 @@
+.header {
+  // width: 100vw;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  padding: 0px 15px;
+
+  .headerLeft {
+    flex: 2;
+    display: flex;
+    align-items: center;
+
+    .headerLogoIcon {
+      margin-left: 10px;
+      font-size: 27px !important;
+      color: #ff0000;
+    }
+
+    .headerLogoTitle {
+      font-size: 20px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-weight: 200;
+    }
+  }
+
+  .headerCenter {
+    flex: 4.5;
+    display: flex;
+    align-items: center;
+
+    .headerCenterLeft {
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      .headerCenterInput {
+        height: 30px;
+        width: 100%;
+        padding: 0px 10px;
+        border: 1px solid gray;
+        font-size: 14px;
+        border-right: none;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .headerSearch {
+        height: 32px;
+        width: 60px;
+        background-color: rgba(0, 0, 0, 0.08);
+        border: 1px solid gray;
+        color: rgba(0, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.1);
+          color: rgba(0, 0, 0, 2);
+        }
+
+        &:focus {
+          outline: none;
+        }
+
+        .headerSearchIcon {
+          font-size: 20px !important;
+        }
+      }
+    }
+  }
+
+  .headerRight {
+    flex: 2;
+    display: flex;
+
+    .headerRightLeft {
+      margin-left: auto;
+    }
+
+    .headerRightRight {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+    }
+  }
+}
