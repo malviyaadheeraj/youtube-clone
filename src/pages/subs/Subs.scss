@@ -1,0 +1,13 @@
+.subs {
+  flex: 4;
+  padding: 0px 20px;
+  height: calc(100vh - 50px);
+  position: sticky;
+  overflow-y: scroll;
+
+  .subsHr {
+    padding: 0.7px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 15px 0px;
+  }
+}

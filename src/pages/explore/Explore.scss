@@ -4,4 +4,43 @@
   height: calc(100vh - 50px);
   position: sticky;
   overflow-y: scroll;
+  background-color: white;
+
+  .exploreTop {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .exploreCard {
+      width: 150px;
+      height: 85px;
+      padding: 15px 15px;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: space-around;
+      border-radius: 15px;
+      box-shadow: 6px 6px 30px 7px rgba(0, 0, 0, 0.04);
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+
+      .exploreCardIcon {
+        font-size: 30px !important;
+      }
+
+      .exploreCardTitle {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .exploreHr {
+    padding: 0.7px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 15px 0px;
+  }
 }

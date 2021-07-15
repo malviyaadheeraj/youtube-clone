@@ -42,7 +42,7 @@ const Sidebar = () => {
             <span className="sidebarTitle">Explore</span>
           </li>
         </Link>
-        <Link to="/subscriptions" className="link">
+        <Link to="/subs" className="link">
           <li className="sidebarListItem">
             <Subscriptions className="sidebarIcon" />
             <span className="sidebarTitle">Subscriptions</span>

@@ -1,0 +1,66 @@
+.library {
+  flex: 4;
+  padding: 0px 20px;
+  height: calc(100vh - 50px);
+  position: sticky;
+  overflow-y: scroll;
+
+  .libraryContainer {
+    display: flex;
+
+    .libraryLeft {
+      flex: 4;
+      margin-right: 15px;
+
+      .libraryLeftHeader {
+        display: flex;
+        align-items: center;
+
+        .libraryIcon {
+          margin-right: 20px;
+        }
+
+        .libraryLeftTitle {
+          font-weight: bold;
+          font-size: 20px;
+        }
+
+        .libraryRightTitle {
+          color: blue;
+          cursor: pointer;
+        }
+      }
+
+      .libraryHr {
+        padding: 0.5px;
+        background-color: rgba(0, 0, 0, 0.2);
+        margin: 15px 0px;
+      }
+    }
+
+    .libraryRight {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .libraryRightAvatar {
+        width: 100px !important;
+        height: 100px !important;
+      }
+
+      .librarySubscription {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .libraryHr {
+        padding: 0.5px;
+        background-color: rgba(0, 0, 0, 0.2);
+        margin: 15px 0px;
+      }
+    }
+  }
+}
