@@ -31,7 +31,7 @@
         }
       }
 
-      .libraryHr {
+      .libraryLeftHr {
         padding: 0.5px;
         background-color: rgba(0, 0, 0, 0.2);
         margin: 15px 0px;
@@ -39,24 +39,36 @@
     }
 
     .libraryRight {
-      flex: 2;
+      flex: 1.1;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      margin-top: 100px;
 
       .libraryRightAvatar {
         width: 100px !important;
         height: 100px !important;
       }
 
+      .libraryContainerRightTitle{
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+
       .librarySubscription {
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        .librarySubscriptionTitle{
+            color: rgba(0, 0, 0, 0.7)
+        }
       }
 
-      .libraryHr {
+      .libraryRightHr {
+        width: 100%;
         padding: 0.5px;
         background-color: rgba(0, 0, 0, 0.2);
         margin: 15px 0px;

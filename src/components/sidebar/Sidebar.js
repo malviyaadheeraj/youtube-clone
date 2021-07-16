@@ -96,75 +96,53 @@ const Sidebar = () => {
       <div className="sidebarHr"></div>
       <ul className="sidebarList">
         <h5 className="sidebarHeading">MORE FROM YOUTUBE</h5>
-        <Link to="/youtubePremium" className="link">
-          <li className="sidebarListItem">
-            <YouTube className="sidebarIcon" />
-            <span className="sidebarTitle">Youtube Premium</span>
-          </li>
-        </Link>
-        <Link to="/movies" className="link">
-          <li className="sidebarListItem">
-            <Theaters className="sidebarIcon" />
-            <span className="sidebarTitle">Movies</span>
-          </li>
-        </Link>
-        <Link to="/gaming" className="link">
-          <li className="sidebarListItem">
-            <VideogameAsset className="sidebarIcon" />
-            <span className="sidebarTitle">Gaming</span>
-          </li>
-        </Link>
-        <Link to="/live" className="link">
-          <li className="sidebarListItem">
-            <SettingsInputAntenna className="sidebarIcon" />
-            <span className="sidebarTitle">Live</span>
-          </li>
-        </Link>
-        <Link to="/fashionBeauty" className="link">
-          <li className="sidebarListItem">
-            <Face className="sidebarIcon" />
-            <span className="sidebarTitle">Fashion & Beauty</span>
-          </li>
-        </Link>
-        <Link to="/learning" className="link">
-          <li className="sidebarListItem">
-            <EmojiObjects className="sidebarIcon" />
-            <span className="sidebarTitle">Learning</span>
-          </li>
-        </Link>
-        <Link to="/sports" className="link">
-          <li className="sidebarListItem">
-            <Sports className="sidebarIcon" />
-            <span className="sidebarTitle">Sports</span>
-          </li>
-        </Link>
+        <li className="sidebarListItem">
+          <YouTube className="sidebarIcon" />
+          <span className="sidebarTitle">Youtube Premium</span>
+        </li>
+        <li className="sidebarListItem">
+          <Theaters className="sidebarIcon" />
+          <span className="sidebarTitle">Movies</span>
+        </li>
+        <li className="sidebarListItem">
+          <VideogameAsset className="sidebarIcon" />
+          <span className="sidebarTitle">Gaming</span>
+        </li>
+        <li className="sidebarListItem">
+          <SettingsInputAntenna className="sidebarIcon" />
+          <span className="sidebarTitle">Live</span>
+        </li>
+        <li className="sidebarListItem">
+          <Face className="sidebarIcon" />
+          <span className="sidebarTitle">Fashion & Beauty</span>
+        </li>
+        <li className="sidebarListItem">
+          <EmojiObjects className="sidebarIcon" />
+          <span className="sidebarTitle">Learning</span>
+        </li>
+        <li className="sidebarListItem">
+          <Sports className="sidebarIcon" />
+          <span className="sidebarTitle">Sports</span>
+        </li>
       </ul>
       <div className="sidebarHr"></div>
       <ul className="sidebarList">
-        <Link to="/settings" className="link">
-          <li className="sidebarListItem">
-            <Settings className="sidebarIcon" />
-            <span className="sidebarTitle">Settings</span>
-          </li>
-        </Link>
-        <Link to="/reportHistory" className="link">
-          <li className="sidebarListItem">
-            <Flag className="sidebarIcon" />
-            <span className="sidebarTitle">Report history</span>
-          </li>
-        </Link>
-        <Link to="/help" className="link">
-          <li className="sidebarListItem">
-            <Help className="sidebarIcon" />
-            <span className="sidebarTitle">Help</span>
-          </li>
-        </Link>
-        <Link to="/sendFeedback" className="link">
-          <li className="sidebarListItem">
-            <Feedback className="sidebarIcon" />
-            <span className="sidebarTitle">Send feedback</span>
-          </li>
-        </Link>
+        <li className="sidebarListItem">
+          <Settings className="sidebarIcon" />
+          <span className="sidebarTitle">Settings</span>
+        </li>
+        <li className="sidebarListItem">
+          <Flag className="sidebarIcon" />
+          <span className="sidebarTitle">Report history</span>
+        </li>
+        <li className="sidebarListItem">
+          <Help className="sidebarIcon" />
+          <span className="sidebarTitle">Help</span>
+        </li>
+        <li className="sidebarListItem">
+          <Feedback className="sidebarIcon" />
+          <span className="sidebarTitle">Send feedback</span>
+        </li>
       </ul>
     </div>
   );

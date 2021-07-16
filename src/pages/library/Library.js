@@ -12,37 +12,37 @@ const Library = () => {
             <History className="libraryIcon" />
             <span className="libraryLeftTitle">History</span>
           </div>
-          <div className="libraryHr"></div>
+          <div className="libraryLeftHr"></div>
           <div className="libraryLeftHeader">
             <WatchLater className="libraryIcon" />
             <span className="libraryLeftTitle">Watch Later</span>
           </div>
-          <div className="libraryHr"></div>
+          <div className="libraryLeftHr"></div>
           <div className="libraryLeftHeader">
             <PlaylistPlay className="libraryIcon" />
             <span className="libraryLeftTitle">Playlists</span>
           </div>
-          <div className="libraryHr"></div>
+          <div className="libraryLeftHr"></div>
         </div>
         <div className="libraryRight">
           <Avatar className="libraryRightAvatar" />
-          <h3 className="libraryContainerRightTitlle">Dheeraj Malviya</h3>
-          <div className="libraryHr"></div>
+          <h3 className="libraryContainerRightTitle">Dheeraj Malviya</h3>
+          <div className="libraryRightHr"></div>
           <div className="librarySubscription">
-            <h3 className="librarySubscriptionTitle">Subscription</h3>
-            <h3 className="librarySubscriptionBadge">38</h3>
+            <span className="librarySubscriptionTitle">Subscription</span>
+            <span className="librarySubscriptionBadge">38</span>
           </div>
-          <div className="libraryHr"></div>
+          <div className="libraryRightHr"></div>
           <div className="librarySubscription">
-            <h3 className="librarySubscriptionTitle">Uploads</h3>
-            <h3 className="librarySubscriptionBadge">0</h3>
+            <span className="librarySubscriptionTitle">Uploads</span>
+            <span className="librarySubscriptionBadge">0</span>
           </div>
-          <div className="libraryHr"></div>
+          <div className="libraryRightHr"></div>
           <div className="librarySubscription">
-            <h3 className="librarySubscriptionTitle">Likes</h3>
-            <h3 className="librarySubscriptionBadge">2</h3>
+            <span className="librarySubscriptionTitle">Likes</span>
+            <span className="librarySubscriptionBadge">2</span>
           </div>
-          <div className="libraryHr"></div>
+          <div className="libraryRightHr"></div>
         </div>
       </div>
     </div>

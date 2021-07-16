@@ -1,9 +1,8 @@
 import React from "react";
 import "./Home.scss";
 import { PlayCircleOutline } from "@material-ui/icons";
-import { Posts, Videos } from "../../dummyData";
+import { Posts } from "../../dummyData";
 import VideoCard from "../../components/videocard/VideoCard";
-import requests from "../../Requests";
 
 const Home = () => {
   return (
@@ -46,8 +45,8 @@ const Home = () => {
         <button className="homeCenterButton">GET IT NOW</button>
       </div>
       <div className="homeBottom">
-        {Videos.map((video) => (
-          <VideoCard key={video.id} video={video} />
+        {Posts.map((post) => (
+          <VideoCard key={post.id} post={post} />
         ))}
       </div>
     </div>
