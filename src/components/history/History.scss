@@ -1,0 +1,47 @@
+.history {
+  flex: 4;
+  padding: 0px 20px;
+  height: calc(100vh - 50px);
+  position: sticky;
+  overflow-y: scroll;
+  display: flex;
+
+  .historyLeft {
+    flex: 4;
+
+    .historyHeader {
+      margin-bottom: 20px;
+    }
+
+    .historyLeftHeader {
+      font-weight: normal;
+    }
+  }
+
+  .historyRight {
+    padding: 20px 30px;
+    flex: 2;
+    background-color: rgba(0, 0, 0, 0.06);
+
+    .historyRightInput {
+      display: flex;
+      align-items: center;
+    }
+
+    .historyInput {
+      height: 40px;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid black;
+      background-color: rgba(0, 0, 0, 0.01);
+
+      &:focus {
+        outline: none;
+      }
+
+      &::placeholder {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

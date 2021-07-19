@@ -20,11 +20,9 @@
     }
   }
 
-  .videoCardUsername {
-    margin-left: 50px;
-  }
-
   .videoCardBottom {
+    display: flex;
+    flex-direction: column;
     margin-left: 50px;
   }
 }

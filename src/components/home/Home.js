@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Home.scss";
 import { PlayCircleOutline } from "@material-ui/icons";
-import { Posts } from "../../dummyData";
-import VideoCard from "../../components/videocard/VideoCard";
+// import VideoCard from "../videocard/VideoCard";
+// import { Videos } from "../../dummyData";
+// import axios from "axios";
 
 const Home = () => {
+  // const [videos, setVideos] = useState([]);
+
+  // useEffect(() => {
+  //   axios
+  //     .get(
+  //       "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=US&key=AIzaSyCj4rqYv9bTDKyfPYj2v7mdRiU3hs3Fb4M"
+  //     )
+  //     .then((res) => {
+  //       setVideos(res.data);
+  //     })
+  //     .catch((err) => {
+  //       alert(err);
+  //     });
+  // }, []);
+
+  // console.log(videos);
+
   return (
     <div className="home">
       <div className="homeHeader">
@@ -45,9 +63,9 @@ const Home = () => {
         <button className="homeCenterButton">GET IT NOW</button>
       </div>
       <div className="homeBottom">
-        {Posts.map((post) => (
-          <VideoCard key={post.id} post={post} />
-        ))}
+        {/* {Videos.map((video) => (
+          <VideoCard key={video.id} video={video} />
+        ))} */}
       </div>
     </div>
   );

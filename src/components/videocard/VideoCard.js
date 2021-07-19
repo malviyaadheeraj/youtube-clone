@@ -1,18 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./VideoCard.scss";
 import { Avatar } from "@material-ui/core";
 
-const VideoCard = ({ post }) => {
+const VideoCard = ({ video }) => {
   return (
     <div className="videoCard">
-      <img src={post.photo} alt="" className="videoCardImage" />
+      <img src={video.photo} alt="" className="videoCardImage" />
       <div className="videoCardTop">
-        <Avatar src={post.profilePicture} className="videoCardAvatar" />
-        <span className="videoCardTitle">{post.title}</span>
+        <Avatar src={video.profilePicture} className="videoCardAvatar" />
+        <span className="videoCardTitle">{video.title}</span>
       </div>
-      <span className="videoCardUsername">{post.username}</span>
       <div className="videoCardBottom">
-        {post.views} Views & {post.date}
+        <small className="videoCardUsername">{video.username}</small>
+        <small className="videoCardBottomTitle">
+          {video.views}Views & {video.date}
+        </small>
       </div>
     </div>
   );
