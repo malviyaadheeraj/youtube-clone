@@ -1,0 +1,64 @@
+.watchLater {
+  flex: 4;
+  padding: 0px 20px;
+  height: calc(100vh - 50px);
+  position: sticky;
+  overflow-y: scroll;
+  display: flex;
+
+  .watchLaterLeft {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+
+    .watchLaterImage {
+      width: 320px;
+      height: 180px;
+      border: 1px soild black;
+    }
+
+    .watchLeftTitle {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 10px 0px;
+    }
+
+    .watchLaterIcons {
+      display: flex;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.03);
+      border-radius: 3px;
+      padding: 3px;
+      width: 80px;
+      margin: 20px 0px;
+      cursor: pointer;
+    }
+
+    .watchMoreIcons {
+      cursor: pointer;
+    }
+
+    .watchLaterHr {
+      padding: 0.5px;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin: 15px;
+    }
+
+    .watchLaterProfile {
+      display: flex;
+      align-items: center;
+
+      .watchLaterAvatar {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .watchLaterRight {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+}

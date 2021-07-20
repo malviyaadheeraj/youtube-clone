@@ -5,23 +5,27 @@
   position: sticky;
   overflow-y: scroll;
 
-  .subsHr {
-    padding: 0.7px;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin: 15px 0px;
-  }
-
-  .subsTop {
-    width: 100%;
-    margin: 10px 0px;
+  .subsContainer {
     display: flex;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
-  }
 
-  .subsBottom {
-    width: 100%;
-    margin: 10px 0px;
-    display: flex;
-    flex-wrap: wrap;
+    .subsItem {
+    width: 500px;
+      display: flex;
+      align-items: center;
+      margin: 30px 0px;
+
+      .subsAvatar {
+        width: 150px !important;
+        height: 150px !important;
+        margin-right: 30px;
+      }
+
+      .subsItemTitle {
+        font-size: 30px;
+      }
+    }
   }
 }

@@ -1,0 +1,64 @@
+.likedVideos {
+  flex: 4;
+  padding: 0px 20px;
+  height: calc(100vh - 50px);
+  position: sticky;
+  overflow-y: scroll;
+  display: flex;
+
+  .likedVideosLeft {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+
+    .likedVideosImage {
+      width: 320px;
+      height: 180px;
+      border: 1px soild black;
+    }
+
+    .likedLeftTitle {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 10px 0px;
+    }
+
+    .likedVideosIcons {
+      display: flex;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.03);
+      border-radius: 3px;
+      padding: 3px;
+      width: 80px;
+      margin: 20px 0px;
+      cursor: pointer;
+    }
+
+    .likedMoreIcons {
+      cursor: pointer;
+    }
+
+    .likedVideosHr {
+      padding: 0.5px;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin: 15px;
+    }
+
+    .likedVideosProfile {
+      display: flex;
+      align-items: center;
+
+      .likedVideosAvatar {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .likedVideosRight {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+}

@@ -63,12 +63,10 @@ const Sidebar = () => {
             <span className="sidebarTitle">History</span>
           </li>
         </Link>
-        <Link to="/yourVideos" className="link">
-          <li className="sidebarListItem">
-            <PersonalVideo className="sidebarIcon" />
-            <span className="sidebarTitle">Your videos</span>
-          </li>
-        </Link>
+        <li className="sidebarListItem">
+          <PersonalVideo className="sidebarIcon" />
+          <span className="sidebarTitle">Your videos</span>
+        </li>
         <Link to="/watchLater" className="link">
           <li className="sidebarListItem">
             <WatchLater className="sidebarIcon" />

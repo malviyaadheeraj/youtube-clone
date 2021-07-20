@@ -19,29 +19,97 @@
   }
 
   .historyRight {
-    padding: 20px 30px;
+    padding: 10px 30px;
     flex: 2;
-    background-color: rgba(0, 0, 0, 0.06);
+    background-color: rgba(0, 0, 0, 0.02);
 
     .historyRightInput {
       display: flex;
       align-items: center;
-    }
+      position: relative;
 
-    .historyInput {
-      height: 40px;
-      width: 100%;
-      border: none;
-      border-bottom: 1px solid black;
-      background-color: rgba(0, 0, 0, 0.01);
-
-      &:focus {
-        outline: none;
+      .historyRightIcon {
+        position: absolute;
+        top: 10px;
       }
 
-      &::placeholder {
-        margin-bottom: 50px;
+      .historyInput {
+        height: 40px;
+        padding-left: 30px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: rgba(0, 0, 0, 0.001);
+
+        &:focus {
+          outline: none;
+        }
+
+        &::placeholder {
+          margin-left: 50px;
+        }
+      }
+    }
+
+    .historyContainer {
+      padding-top: 20px;
+      padding-bottom: 15px;
+
+      .historyContainerTop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .historyContainerTitle {
+          font-size: 16px;
+        }
+
+        input {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .historyDelete {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .historyPause {
+      display: flex;
+      align-items: center;
+      margin: 25px 0px;
+      cursor: pointer;
+    }
+
+    .historySettings {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin-bottom: 30px;
+    }
+
+    .historyIcon {
+      margin-right: 10px;
+      color: rgba(0, 0, 0, 0.7);
+    }
+
+    .historyBottom {
+      display: flex;
+      flex-direction: column;
+
+      .historyBottomTitle {
+        margin-left: 35px;
+        margin-bottom: 20px;
+        font-size: 14px;
       }
     }
   }
+}
+
+.historyHr {
+  padding: 0.5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 15px 0px;
 }

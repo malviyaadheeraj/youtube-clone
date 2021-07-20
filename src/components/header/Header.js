@@ -27,9 +27,11 @@ const Header = () => {
   return (
     <div className="header">
       <div className="headerLeft">
-        <IconButton>
-          <Menu className="headerIcon" />
-        </IconButton>
+        <Tooltip title="Menu">
+          <IconButton>
+            <Menu className="headerIcon" />
+          </IconButton>
+        </Tooltip>
         <YouTube className="headerLogoIcon" />
         <span className="headerLogoTitle">YouTube</span>
       </div>
@@ -40,41 +42,41 @@ const Header = () => {
             placeholder="Search"
             className="headerCenterInput"
           />
-          {/* <Tooltip title="Search"> */}
-          <button className="headerSearch">
-            <Search
-              className="headerSearchIcon"
-              title="Search"
-              fontSize="small"
-            />
-          </button>
-          {/* </Tooltip> */}
+          <Tooltip title="Search">
+            <button className="headerSearch">
+              <Search
+                className="headerSearchIcon"
+                title="Search"
+                fontSize="small"
+              />
+            </button>
+          </Tooltip>
         </div>
         <div className="headerCenterRight" style={{ marginLeft: "5px" }}>
-          {/* <Tooltip title="Search with your voice"> */}
-          <IconButton>
-            <Mic className="headerIcon" />
-          </IconButton>
-          {/* </Tooltip> */}
+          <Tooltip title="Search with your voice">
+            <IconButton>
+              <Mic className="headerIcon" />
+            </IconButton>
+          </Tooltip>
         </div>
       </div>
       <div className="headerRight">
         <div className="headerRightLeft">
-          {/* <Tooltip title="Create"> */}
-          <IconButton>
-            <VideoCall className="headerIcon" />
-          </IconButton>
-          {/* </Tooltip> */}
-          {/* <Tooltip title="Youtube apps"> */}
-          <IconButton>
-            <Apps className="headerIcon" />
-          </IconButton>
-          {/* </Tooltip> */}
-          {/* <Tooltip title="Notification"> */}
-          <IconButton>
-            <Notifications className="headerIcon" />
-          </IconButton>
-          {/* </Tooltip> */}
+          <Tooltip title="Create">
+            <IconButton>
+              <VideoCall className="headerIcon" />
+            </IconButton>
+          </Tooltip>
+          <Tooltip title="Youtube apps">
+            <IconButton>
+              <Apps className="headerIcon" />
+            </IconButton>
+          </Tooltip>
+          <Tooltip title="Notification">
+            <IconButton>
+              <Notifications className="headerIcon" />
+            </IconButton>
+          </Tooltip>
         </div>
         <div className="headerRightRight">
           <Avatar onClick={handleLogout} />

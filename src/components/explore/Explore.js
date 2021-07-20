@@ -11,6 +11,8 @@ import {
   SettingsInputAntenna,
   Sports,
 } from "@material-ui/icons";
+import { Avatar } from "@material-ui/core";
+import { Videos } from "../../dummyData";
 
 const Explore = () => {
   return (
@@ -60,8 +62,23 @@ const Explore = () => {
         </div>
       </div>
       <div className="exploreHr"></div>
+      <h2 className="exploreBottomTitle">Trending Videos</h2>
       <div className="exploreBottom">
-        <h2 className="exploreBottomTitle">Trending Videos</h2>
+        {Videos.map((video) => (
+          <div className="exploreVideo" key={video.id}>
+            <img src={video.photo} className="exploreVideoImage" alt="" />
+            <div className="exploreVideoRight">
+              <h3 className="exploreVideoTitle">{video.title}</h3>
+              <div className="exploreProfile">
+                <Avatar src={video.profilePicture} className="exploreAvatar" />
+                <span className="explorePofileTitle">{video.username}</span>
+              </div>
+              <small className="exploreReviews">
+                {video.views} Views & {video.date}
+              </small>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

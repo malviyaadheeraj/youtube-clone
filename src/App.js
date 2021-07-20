@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./App.scss";
-// import Login from "./components/login/Login";
 import Header from "./components/header/Header";
 import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./components/home/Home";
@@ -8,6 +7,9 @@ import Explore from "./components/explore/Explore";
 import Subs from "./components/subs/Subs";
 import Library from "./components/library/Library";
 import History from "./components/history/History";
+import WatchLater from "./components/watchlater/WatchLater";
+import LikedVideos from "./components/likedvideos/LikedVideos";
+// import Login from "./components/login/Login";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import { useDispatch, useSelector } from "react-redux";
 // import { login, selectUser } from "./features/userSlice";
@@ -46,6 +48,8 @@ function App() {
             <Route path="/subs" component={Subs} />
             <Route path="/library" component={Library} />
             <Route path="/history" component={History} />
+            <Route path="/watchlater" component={WatchLater} />
+            <Route path="/likedvideos" component={LikedVideos} />
           </Switch>
         </div>
       </div>
