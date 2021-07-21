@@ -10,19 +10,21 @@ import {
   YouTube,
 } from "@material-ui/icons";
 import { IconButton, Avatar, Tooltip } from "@material-ui/core";
-// import { useDispatch, useSelector } from "react-redux";
-// import { logout, selectUser } from "../../features/userSlice";
-// import { auth } from "../../firebase";
+import { useDispatch, useSelector } from "react-redux";
+import { logout, selectUser } from "../../features/userSlice";
+import { auth } from "../../firebase";
 
 const Header = () => {
-  // const user = useSelector(selectUser);
-  // const dispatch = useDispatch();
+  const user = useSelector(selectUser);
+  const dispatch = useDispatch();
 
   const handleLogout = () => {
-    // auth.signOut().then(() => {
-    //   dispatch(logout());
-    // });
+    auth.signOut().then(() => {
+      dispatch(logout());
+    });
   };
+
+  console.log(user);
 
   return (
     <div className="header">

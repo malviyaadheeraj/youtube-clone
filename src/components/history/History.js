@@ -6,13 +6,34 @@ import {
   PauseCircleOutline,
   Settings,
 } from "@material-ui/icons";
+import { Avatar } from "@material-ui/core";
+import { Videos } from "../../dummyData";
 
 const History = () => {
   return (
     <div className="history">
       <div className="historyLeft">
         <h3 className="historyHeader">Watch History</h3>
-        <h3 className="historyLeftHeader">Today</h3>
+        <div className="historyTop">
+          {Videos.map((video) => (
+            <div className="historyCard" key={video.id}>
+              <img src={video.photo} alt="" className="historyCardImage" />
+              <div className="historyCardTop">
+                <Avatar
+                  src={video.profilePicture}
+                  className="historyCardAvatar"
+                />
+                <span className="historyCardTitle">{video.title}</span>
+              </div>
+              <div className="historyCardBottom">
+                <small className="historyCardUsername">{video.username}</small>
+                <small className="historyCardBottomTitle">
+                  {video.views}Views & {video.date}
+                </small>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
       <div className="historyRight">
         <div className="historyRightInput">

@@ -1,28 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Home.scss";
 import { PlayCircleOutline } from "@material-ui/icons";
 import { Avatar } from "@material-ui/core";
 import { Videos } from "../../dummyData";
-import axios from "axios";
 
 const Home = () => {
-  // const [videos, setVideos] = useState([]);
-
-  // useEffect(() => {
-  //   axios
-  //     .get(
-  //       "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=US&key=AIzaSyCj4rqYv9bTDKyfPYj2v7mdRiU3hs3Fb4M"
-  //     )
-  //     .then((res) => {
-  //       setVideos(res.data);
-  //     })
-  //     .catch((err) => {
-  //       alert(err);
-  //     });
-  // }, []);
-
-  // console.log(videos);
-
   return (
     <div className="home">
       <div className="homeHeader">
@@ -64,15 +46,18 @@ const Home = () => {
       </div>
       <div className="homeBottom">
         {Videos.map((video) => (
-          <div className="videoCard" key={video.id}>
-            <img src={video.photo} alt="" className="videoCardImage" />
-            <div className="videoCardTop">
-              <Avatar src={video.profilePicture} className="videoCardAvatar" />
-              <span className="videoCardTitle">{video.title}</span>
+          <div className="homeVideoCard" key={video.id}>
+            <img src={video.photo} alt="" className="homeVideoCardImage" />
+            <div className="homeVideoCardTop">
+              <Avatar
+                src={video.profilePicture}
+                className="homeVideoCardAvatar"
+              />
+              <span className="homeVideoCardTitle">{video.title}</span>
             </div>
-            <div className="videoCardBottom">
-              <small className="videoCardUsername">{video.username}</small>
-              <small className="videoCardBottomTitle">
+            <div className="homeVideoCardBottom">
+              <small className="homeVideoCardUsername">{video.username}</small>
+              <small className="homeVideoCardBottomTitle">
                 {video.views}Views & {video.date}
               </small>
             </div>

@@ -7,7 +7,11 @@ const LikedVideos = () => {
   return (
     <div className="likedVideos">
       <div className="likedVideosLeft">
-        <img src="https://i.ytimg.com/an_webp/-O7a9Oro1KI/mqdefault_6s.webp?du=3000&sqp=CJCYzIcG&rs=AOn4CLCcT-0xHuyIJlI-0lH7KtU_f8KJIw" className="likedVideosImage" alt="" />
+        <img
+          src="https://i.ytimg.com/an_webp/-O7a9Oro1KI/mqdefault_6s.webp?du=3000&sqp=CJCYzIcG&rs=AOn4CLCcT-0xHuyIJlI-0lH7KtU_f8KJIw"
+          className="likedVideosImage"
+          alt=""
+        />
         <span className="likedLeftTitle">Liked Videos</span>
         <small>No videos & No views & Updated 2 days ago</small>
         <div className="likedVideosIcons">

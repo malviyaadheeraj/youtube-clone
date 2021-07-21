@@ -59,7 +59,7 @@ export const Videos = [
     username: "Ashish Chanchlani",
     title: "OTP The Lottery : Chapter 1 | Ashish Chanchlani",
     photo:
-      "https://i.ytimg.com/an_webp/-O7a9Oro1KI/mqdefault_6s.webp?du=3000&sqp=CJCYzIcG&rs=AOn4CLCcT-0xHuyIJlI-0lH7KtU_f8KJIw",
+      "https://i.ytimg.com/an_webp/-O7a9Oro1KI/mqdefault_6s.webp?du=3000&sqp=CKS03ocG&rs=AOn4CLCsUUon4OrPPgDMky4A9LI4DljInA",
     date: "2 Weeks ago",
     views: "25M",
   },
@@ -70,7 +70,7 @@ export const Videos = [
     username: "CG Meetup",
     title: "CGI Animated Short Film: by Frostbite Team | CGMeetup",
     photo:
-      "https://i.ytimg.com/an_webp/gJo0e1YmjRM/mqdefault_6s.webp?du=3000&sqp=CKney4cG&rs=AOn4CLD0XdsYnVUCJbbJOj4dplb2Ux83mA",
+      "https://i.ytimg.com/vi/M-wSRMFrRI0/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9iWEp1C1IyW6XV-Z3B-AY6aZDbw",
     date: "1 Day ago",
     views: "15K",
   },
@@ -82,7 +82,7 @@ export const Videos = [
     title:
       "Top 5 Programming Languages to Learn in 2018 to Get a Job Without a College Degree",
     photo:
-      "https://i.ytimg.com/an_webp/f3EbDbm8XqY/mqdefault_6s.webp?du=3000&sqp=COSYzIcG&rs=AOn4CLAKg838lrMQc7FSNTmWFUy4dcqAug",
+      "https://i.ytimg.com/an_webp/U_azgdEbNAw/mqdefault_6s.webp?du=3000&sqp=CIio3ocG&rs=AOn4CLA_GfHE1kaK6CqPpCKl6MhKcYYIvQ",
     date: "5 Months ago",
     views: "2.1M",
   },
@@ -94,7 +94,7 @@ export const Videos = [
       " Let's build Facebook 2.0 with REACT.JS! (Next.js, Tailwind CSS, Image Uploading, Facebook Login)",
     username: "Sonny Sangha",
     photo:
-      "https://i.ytimg.com/an_webp/dBotWYKYYWc/mqdefault_6s.webp?du=3000&sqp=CJ2lzIcG&rs=AOn4CLC2QkgDRlPG184k29vmeUOUlEpirg",
+      "https://i.ytimg.com/vi/UVhIMwHDS7k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBg7je6amco9ABNo2UWnd8Koxdrdw",
     date: "2 Months ago",
     views: "172K",
   },
@@ -279,201 +279,5 @@ export const Videos = [
       "Marshmello x Jonas Brothers - Leave Before You Love Me (Official Music Video)",
     date: "1 Months ago",
     views: "21M",
-  },
-];
-
-export const LikedVideos = [
-  {
-    id: 1,
-    profilePicture:
-      "https://yt3.ggpht.com/BVqLMjlExOME5CXWAO7ZBofIe7WpZMJ49DSRgldQWFlECsF6jq-qrmTTCjvwQz9SNDc9uL1Pyw=s88-c-k-c0x00ffffff-no-rj",
-    title: "Daddy Yankee, Myke Towers, Jhay Cortez- Súbele el volumen",
-    username: "Daddy Yankee",
-    photo:
-      "https://i.ytimg.com/vi/z2F5EFij6mo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB1ITi4d34WVar16Lo-btJCojbe7A",
-    date: "1 day ago",
-    views: "2.1M",
-  },
-  {
-    id: 2,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLTbSmQprzIfrRJZdhI1VqUrSyZVnD9UilojsXFv=s88-c-k-c0x00ffffff-no-rj",
-    username: "Saksham the computer guy",
-    title: "Tech Anthem - Teaser",
-    photo:
-      "https://i.ytimg.com/vi/I4rK8m2Og0Y/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmUsa84aeUxrXK1C4j4erlgE8hOw",
-    date: "1 Month ago",
-    views: "2.7K",
-  },
-  {
-    id: 3,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLTo7-uWcmZivkRalGL8lxyQ1kNWzAsBuuLjzHb-=s88-c-k-c0x00ffffff-no-rj",
-    title: "TVF's Rahasya Mess ke khane ka",
-    username: "The Viral Fever",
-    photo:
-      "https://i.ytimg.com/vi/t1pduZinA1E/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoy7PVI0j8sXGJTo9i_jjjK-S7YA",
-    date: "1 Week ago",
-    views: "1.5M",
-  },
-];
-
-export const WatchLaterVideos = [
-  {
-    id: 1,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLS3TL9Kjy_Okt4lTdpC-W_mFIsQ8ywpY-vxkXMFrUE=s88-c-k-c0x00ffffff-no-rj",
-    title:
-      " Let's build Facebook 2.0 with REACT.JS! (Next.js, Tailwind CSS, Image Uploading, Facebook Login)",
-    username: "Sonny Sangha",
-    photo:
-      "https://i.ytimg.com/an_webp/dBotWYKYYWc/mqdefault_6s.webp?du=3000&sqp=CJ2lzIcG&rs=AOn4CLC2QkgDRlPG184k29vmeUOUlEpirg",
-    date: "2 Months ago",
-    views: "172K",
-  },
-  {
-    id: 2,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLQGJzANzs2ymcXNw3LKBSpQj9EpJojb5a6JY6oPlQ=s88-c-k-c0x00ffffff-no-rj",
-    title:
-      "How To Make Website using Html & CSS | Complete Responsive Website Design Tutorial",
-    username: "Online Tutorials",
-    photo:
-      "https://i.ytimg.com/vi/enBAFo2kEfE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABXp53uZwmbBPBiRDTt4kbGb1GzQ",
-    date: "5 Months ago",
-    views: "99K",
-  },
-  {
-    id: 3,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLR-TP_Uc-gh9UWENj1CsWNVyxDRwCikaVARVwhY=s88-c-k-c0x00ffffff-no-rj",
-    title:
-      "React Admin Dashboard Tutorial | React Admin Panel Design Course for Beginners",
-    username: "Lama Dev",
-    photo:
-      "https://i.ytimg.com/an_webp/aTPkos3LKi8/mqdefault_6s.webp?du=3000&sqp=CP-VzIcG&rs=AOn4CLAp_noP1ptq-RS1K1MgkWeb3fWhxA",
-    date: "1 Months ago",
-    views: "70K",
-  },
-  {
-    id: 4,
-    profilePicture:
-      "https://yt3.ggpht.com/UjKc54x7sVzQ4KLlS5rgMI0DdLoaa4cFbFpsFsxLxcSXEbTWotIPvyCA63BjTddipDv8LQufiQ=s88-c-k-c0x00ffffff-no-rj",
-    username: "Sandeep Maheshwari",
-    title:
-      "MORNING MOTIVATIONAL VIDEO - Sandeep Maheshwari | DAILY MORNING AFFIRMATIONS Hindi",
-    photo:
-      "https://i.ytimg.com/vi/fG1oNm2tCro/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnRgwmmCCfWZ723nAT_ikKn3Ljdg",
-    date: "10 Months ago",
-    views: "15M",
-  },
-  {
-    id: 5,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLSxHOOxxa9Af8Bfb2XMop3lm4tor9bViWiC-d5aaw=s88-c-k-c0x00ffffff-no-rj",
-    title: "Web Development In 2021 - A Practical Guide",
-    username: "Traversy Media",
-    photo:
-      "https://i.ytimg.com/vi/VfGW0Qiy2I0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWK8MPZo9RxoeOJG4AG9fBgQx_jw",
-    date: "6 Months ago",
-    views: "823K",
-  },
-];
-
-export const HistoryVideos = [
-  {
-    id: 1,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLS3TL9Kjy_Okt4lTdpC-W_mFIsQ8ywpY-vxkXMFrUE=s88-c-k-c0x00ffffff-no-rj",
-    title:
-      " Let's build Facebook 2.0 with REACT.JS! (Next.js, Tailwind CSS, Image Uploading, Facebook Login)",
-    username: "Sonny Sangha",
-    photo:
-      "https://i.ytimg.com/an_webp/dBotWYKYYWc/mqdefault_6s.webp?du=3000&sqp=CJ2lzIcG&rs=AOn4CLC2QkgDRlPG184k29vmeUOUlEpirg",
-    date: "2 Months ago",
-    views: "172K",
-  },
-
-  {
-    id: 2,
-    profilePicture:
-      "https://yt3.ggpht.com/UjKc54x7sVzQ4KLlS5rgMI0DdLoaa4cFbFpsFsxLxcSXEbTWotIPvyCA63BjTddipDv8LQufiQ=s88-c-k-c0x00ffffff-no-rj",
-    username: "Sandeep Maheshwari",
-    title:
-      "MORNING MOTIVATIONAL VIDEO - Sandeep Maheshwari | DAILY MORNING AFFIRMATIONS Hindi",
-    photo:
-      "https://i.ytimg.com/vi/fG1oNm2tCro/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnRgwmmCCfWZ723nAT_ikKn3Ljdg",
-    date: "10 Months ago",
-    views: "15M",
-  },
-  {
-    id: 3,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLTbSmQprzIfrRJZdhI1VqUrSyZVnD9UilojsXFv=s88-c-k-c0x00ffffff-no-rj",
-    username: "Saksham the computer guy",
-    title: "Tech Anthem - Teaser",
-    photo:
-      "https://i.ytimg.com/vi/I4rK8m2Og0Y/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmUsa84aeUxrXK1C4j4erlgE8hOw",
-    date: "1 Month ago",
-    views: "2.7K",
-  },
-  {
-    id: 4,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLSxHOOxxa9Af8Bfb2XMop3lm4tor9bViWiC-d5aaw=s88-c-k-c0x00ffffff-no-rj",
-    title: "Web Development In 2021 - A Practical Guide",
-    username: "Traversy Media",
-    photo:
-      "https://i.ytimg.com/vi/VfGW0Qiy2I0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWK8MPZo9RxoeOJG4AG9fBgQx_jw",
-    date: "6 Months ago",
-    views: "823K",
-  },
-  {
-    id: 5,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLS3TL9Kjy_Okt4lTdpC-W_mFIsQ8ywpY-vxkXMFrUE=s88-c-k-c0x00ffffff-no-rj",
-    title:
-      " Let's build Facebook 2.0 with REACT.JS! (Next.js, Tailwind CSS, Image Uploading, Facebook Login)",
-    username: "Sonny Sangha",
-    photo:
-      "https://i.ytimg.com/an_webp/dBotWYKYYWc/mqdefault_6s.webp?du=3000&sqp=CJ2lzIcG&rs=AOn4CLC2QkgDRlPG184k29vmeUOUlEpirg",
-    date: "2 Months ago",
-    views: "172K",
-  },
-  {
-    id: 6,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLQGJzANzs2ymcXNw3LKBSpQj9EpJojb5a6JY6oPlQ=s88-c-k-c0x00ffffff-no-rj",
-    title:
-      "How To Make Website using Html & CSS | Complete Responsive Website Design Tutorial",
-    username: "Online Tutorials",
-    photo:
-      "https://i.ytimg.com/vi/enBAFo2kEfE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABXp53uZwmbBPBiRDTt4kbGb1GzQ",
-    date: "5 Months ago",
-    views: "99K",
-  },
-  {
-    id: 7,
-    profilePicture:
-      "https://yt3.ggpht.com/ytc/AKedOLR-TP_Uc-gh9UWENj1CsWNVyxDRwCikaVARVwhY=s88-c-k-c0x00ffffff-no-rj",
-    title:
-      "React Admin Dashboard Tutorial | React Admin Panel Design Course for Beginners",
-    username: "Lama Dev",
-    photo:
-      "https://i.ytimg.com/an_webp/aTPkos3LKi8/mqdefault_6s.webp?du=3000&sqp=CP-VzIcG&rs=AOn4CLAp_noP1ptq-RS1K1MgkWeb3fWhxA",
-    date: "1 Months ago",
-    views: "70K",
-  },
-  {
-    id: 8,
-    profilePicture:
-      "https://yt3.ggpht.com/UjKc54x7sVzQ4KLlS5rgMI0DdLoaa4cFbFpsFsxLxcSXEbTWotIPvyCA63BjTddipDv8LQufiQ=s88-c-k-c0x00ffffff-no-rj",
-    username: "Sandeep Maheshwari",
-    title:
-      "MORNING MOTIVATIONAL VIDEO - Sandeep Maheshwari | DAILY MORNING AFFIRMATIONS Hindi",
-    photo:
-      "https://i.ytimg.com/vi/fG1oNm2tCro/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnRgwmmCCfWZ723nAT_ikKn3Ljdg",
-    date: "10 Months ago",
-    views: "15M",
   },
 ];

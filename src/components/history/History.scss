@@ -6,22 +6,74 @@
   overflow-y: scroll;
   display: flex;
 
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }
+
   .historyLeft {
     flex: 4;
 
     .historyHeader {
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
 
     .historyLeftHeader {
       font-weight: normal;
     }
+
+    .historyTop {
+      width: 100%;
+      margin: 10px 0px;
+      display: flex;
+      flex-wrap: wrap;
+
+      .historyCard {
+        width: 220px;
+        margin: 5px;
+        margin-bottom: 10px;
+        object-fit: contain;
+        cursor: pointer;
+
+        .historyCardImage {
+          width: 100%;
+          height: 150px;
+        }
+
+        .historyCardTop {
+          display: flex;
+          justify-content: flex-start;
+          height: 42px;
+          overflow: hidden;
+          margin-top: 10px;
+
+          .historyCardAvatar {
+            margin-right: 10px;
+          }
+        }
+
+        .historyCardBottom {
+          display: flex;
+          flex-direction: column;
+          margin-left: 50px;
+        }
+      }
+    }
   }
 
   .historyRight {
     padding: 10px 30px;
-    flex: 2;
+    flex: 1.5;
     background-color: rgba(0, 0, 0, 0.02);
+    position: sticky;
+    top: 0;
 
     .historyRightInput {
       display: flex;

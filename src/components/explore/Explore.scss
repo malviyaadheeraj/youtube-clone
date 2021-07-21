@@ -6,6 +6,18 @@
   overflow-y: scroll;
   background-color: white;
 
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }
+
   .exploreTop {
     display: flex;
     align-items: center;
@@ -47,32 +59,38 @@
   .exploreBottom {
     width: 100%;
     margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
 
     .exploreVideo {
+      width: 750px;
       display: flex;
-      width: 700px;
-      overflow: hidden;
-      margin: 25px 0px;
+      margin-bottom: 15px;
+      cursor: pointer;
 
       .exploreVideoImage {
         width: 250px;
         height: 180px;
         object-fit: contain;
-        margin-right: 20px;
+        margin-right: 10px;
       }
 
       .exploreVideoRight {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        .exploreVideoTitle {
+          font-weight: 500;
+        }
 
         .exploreProfile {
-          margin: 10px 0px;
           display: flex;
           align-items: center;
+          margin: 10px 0px;
 
           .exploreAvatar {
-            margin-right: 20px;
+            margin-right: 10px;
+          }
+
+          .explorePofileTitle {
+            font-weight: 500;
           }
         }
       }

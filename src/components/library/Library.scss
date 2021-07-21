@@ -5,8 +5,21 @@
   position: sticky;
   overflow-y: scroll;
 
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }
+
   .libraryContainer {
     display: flex;
+    align-items: flex-start;
 
     .libraryLeft {
       flex: 4;
@@ -14,20 +27,64 @@
 
       .libraryLeftHeader {
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
 
-        .libraryIcon {
-          margin-right: 20px;
+        .libraryIcons {
+          display: flex;
+          align-items: center;
+
+          .libraryIcon {
+            margin-right: 15px;
+          }
+
+          .libraryLeftTitle {
+            font-weight: bold;
+            font-size: 20px;
+          }
+
+          .libraryRightTitle {
+            color: blue;
+            cursor: pointer;
+          }
         }
 
-        .libraryLeftTitle {
-          font-weight: bold;
-          font-size: 20px;
-        }
+        .libraryBottom {
+          width: 100%;
+          margin: 15px 0px;
+          display: flex;
+          flex-wrap: wrap;
 
-        .libraryRightTitle {
-          color: blue;
-          cursor: pointer;
+          .libraryVideoCard {
+            width: 250px;
+            margin: 5px;
+            margin-bottom: 10px;
+            object-fit: contain;
+            cursor: pointer;
+
+            .libraryVideoCardImage {
+              width: 100%;
+              height: 180px;
+            }
+
+            .libraryVideoCardTop {
+              display: flex;
+              justify-content: flex-start;
+              height: 42px;
+              overflow: hidden;
+              margin-top: 10px;
+
+              .libraryVideoCardAvatar {
+                margin-right: 10px;
+              }
+            }
+
+            .libraryVideoCardBottom {
+              display: flex;
+              flex-direction: column;
+              margin-left: 50px;
+            }
+          }
         }
       }
 
@@ -39,12 +96,14 @@
     }
 
     .libraryRight {
-      flex: 1.1;
+      flex: 1.2;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 100px;
+      margin-top: 70px;
+      position: sticky;
+      top: 0;
 
       .libraryRightAvatar {
         width: 100px !important;

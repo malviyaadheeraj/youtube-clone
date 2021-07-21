@@ -22,8 +22,8 @@ import {
   Feedback,
   ExpandMore,
 } from "@material-ui/icons";
+import { Subscribers } from "../../dummyData"
 import Subscription from "../subscription/Subscription";
-import { Subscribers } from "../../dummyData";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
